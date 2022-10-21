@@ -1,0 +1,49 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.auth-content{
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(255, 255, 255);
+
+}
+.auth-content h1{
+    text-align: center;
+}
+.auth-content button{
+    cursor: pointer;
+    height: 40px;
+    margin-top: 1rem;
+    background: rgb(0, 102, 255);
+    border: none;
+    color: white;
+}
+.auth-content button:hover{
+    background-color: blue;
+}
+
+.flex-p{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+.sign-p{
+    cursor: pointer;
+    color:rgb(0, 102, 255)
+}
+
+@media only screen and (max-width: 550px) {
+    .auth-content{
+        padding: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+    .flex-p{
+        flex-direction: column;
+    }
+  }

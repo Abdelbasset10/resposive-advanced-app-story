@@ -1,0 +1,72 @@
+.post{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(240, 240, 240) !important;
+
+}
+.upper-post{
+    width: 100%;
+    position: relative;
+}
+.post img{
+    width: 20rem;
+    height: 10rem;
+    object-fit: cover;
+}
+.absolute-post-left{
+    position: absolute;
+    color: white;
+    top: 1.5rem;
+    left: 1rem;
+}
+.absolute-post-right{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.icon{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.down-post{
+    padding: 1rem;
+    width: 100%;
+}
+.down-post h2{
+    font-size: 23px;
+}
+.p-gray{
+    color:rgb(87, 85, 85)
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-div,.delete-div{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+}
+.like-icon{
+    font-size: 1.75rem;
+    color: blue;
+}
+.delete-icon{
+    font-size: 1.75rem;
+    color: red;
+}
+
+@media only screen and (max-width: 875px) {
+    .post{
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .post{
+        width: 100%;
+    }
+  }

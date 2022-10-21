@@ -1,0 +1,29 @@
+.search {
+    margin-bottom: 2rem;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(255, 255, 255);
+
+}
+.search button{
+    width: 100%;
+    height: 40px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 875px) {
+    .search{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1rem;
+        
+    
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .search{
+        width: 100%;
+    }
+  }

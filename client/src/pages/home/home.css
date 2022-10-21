@@ -1,0 +1,12 @@
+.content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+}
+@media only screen and (max-width: 875px) {
+    .content{
+        flex-direction: column;
+
+    }
+  }
