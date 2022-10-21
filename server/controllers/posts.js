@@ -24,7 +24,8 @@ const createPost = async (req,res) => {
     try {
         const post = req.body
         const newPost = new PostModel({
-            ...post , creator:req.userId
+            ...post , creator:req.userId,
+            createdAt: new Date().toISOString()
         })
         await newPost.save()
         res.status(201).json(newPost)
